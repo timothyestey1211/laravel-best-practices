@@ -614,18 +614,3 @@ public function getSomeDateAttribute($date)
 {
     return $date->format('m-d');
 }
-
-// View
-{{ $object->ordered_at->toDateString() }}
-{{ $object->ordered_at->some_date }}
-```
-
-[🔝 Back to contents](#contents)
-
-### **Other good practices**
-
-Never put any logic in routes files.
-
-Minimize usage of vanilla PHP in Blade templates.
-
-[🔝 Back to contents](#contents)
